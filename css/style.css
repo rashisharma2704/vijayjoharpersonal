@@ -185,7 +185,7 @@ body {
 }
 
 .about-btn {
-  background-color: #ff5722;
+  background-color: #20345a;
   color: white;
   padding: 12px 24px;
   text-decoration: none;
@@ -410,7 +410,7 @@ body {
 }
 
 .card-icon {
-  color: #ff5722;
+  color: #20345a;
   font-size: 24px;
   margin-top: 4px;
 }
@@ -431,7 +431,7 @@ body {
 }
 
 .culture-text h5 {
-  color: #ff5722;
+  color: #20345a;
   font-weight: 600;
   font-size: 14px;
   letter-spacing: 1px;
@@ -453,7 +453,7 @@ body {
 .culture-text blockquote {
   font-style: italic;
   color: #fff;
-  border-left: 4px solid #ff5722;
+  border-left: 4px solid #20345a;
   padding-left: 15px;
   margin: 0;
 }
@@ -533,7 +533,7 @@ body {
 }
 
 .section-subtitle {
-  color: #ff5722;
+  color: #20345a;
   font-weight: bold;
   margin-bottom: 10px;
   text-transform: uppercase;
@@ -569,7 +569,7 @@ body {
 }
 
 .progress-bar .fill {
-  background: linear-gradient(90deg, #ff5722, #ff8a00);
+  background: linear-gradient(90deg, #20345a, #ff8a00);
   height: 100%;
   transition: width 1s ease-in-out;
 }
@@ -649,7 +649,7 @@ body {
 }
 
 .btn {
-  background: #ff5722;
+  background: #20345a;
   color: white;
   padding: 10px 20px;
   border-radius: 8px;
@@ -668,7 +668,7 @@ body {
 }
 
 .call-to-action .tag {
-  color: #ff5722;
+  color: #20345a;
   font-weight: bold;
   text-transform: uppercase;
   margin-bottom: 10px;
@@ -685,7 +685,7 @@ body {
 }
 
 .discover-btn {
-  background: #ff5722;
+  background: #20345a;
   padding: 10px 20px;
 }
 .quote-section {
@@ -751,7 +751,7 @@ input, textarea {
 }
 
 button {
-  background: #ff5722;
+  background: #20345a;
   color: #fff;
   font-size: 16px;
   padding: 12px;
@@ -809,7 +809,7 @@ button:hover {
 }
 
 .footer-col ul li a {
-  color: #ff5722;
+  color: #20345a;
   text-decoration: none;
   transition: color 0.3s ease;
 }
@@ -824,7 +824,7 @@ button:hover {
 }
 
 .contact-info i {
-  color: #ff5722;
+  color: #20345a;
   margin-right: 10px;
 }
 
@@ -845,7 +845,7 @@ button:hover {
 }
 
 .news-item i {
-  color: #ff5722;
+  color: #20345a;
   margin-right: 6px;
 }
 
@@ -889,7 +889,7 @@ button:hover {
 }
 
 .newsletter button {
-  background: #ff5722;
+  background: #20345a;
   color: white;
   border: none;
   padding: 12px 20px;
@@ -976,7 +976,7 @@ button:hover {
 }
 
 .dot.active {
-  background-color: #ff5722;
+  background-color: #20345a;
 }
 
 /* Responsive */
@@ -1040,7 +1040,7 @@ button:hover {
 
 .card-icon {
   font-size: 28px;
-  color: #ff5722;
+  color: #20345a;
   flex-shrink: 0;
   margin-top: 5px;
 }
@@ -1058,7 +1058,7 @@ button:hover {
 }
 
 .central-card {
-  background-color: #ff5722;
+  background-color: #20345a;
   color: #fff;
   text-align: left;
 }

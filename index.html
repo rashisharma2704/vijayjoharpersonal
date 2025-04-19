@@ -5,6 +5,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Best Business Coaching in Jaipur</title>
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
   <link rel="stylesheet" href="css/style.css" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -53,8 +54,9 @@
         <p class="tagline">About Vijay</p>
         <h2>Your Business Is<br>My Business</h2>
         <p class="description">
-          At the heart of every thriving business is clarity, strategy, and support. <br/>
-          I’m here to help you align your purpose with performance — guiding you through smart decisions, confident leadership, and sustainable growth.<br/>
+          At the heart of every thriving business is clarity, strategy, and support. <br />
+          I’m here to help you align your purpose with performance — guiding you through smart decisions, confident
+          leadership, and sustainable growth.<br />
           Let’s build the business you were meant to lead.
         </p>
         <div class="header-button">
@@ -129,7 +131,8 @@
       <div class="culturehead">
         <div class="culture-header">
           <h5>Our 7 Core Values</h5>
-          <p>Rooted in purpose and driven by impact, these values shape every decision, interaction, and result we create together.</p>
+          <p>Rooted in purpose and driven by impact, these values shape every decision, interaction, and result we
+            create together.</p>
         </div>
       </div>
       <div class="culture-cards-grid">
@@ -419,10 +422,19 @@
     </div>
 
     <div class="copyright">
-      <p>Copyright © 2021 Bimbink, All rights reserved. Present by MoxCreative.</p>
+      <p>
+        Copyright © <span id="current-year"></span> Vijay Johar Business Coaching, All rights reserved.
+        <br />
+        <span class="mt-5">
+          Presented by <a href="https://it.upsurgemedia.in" target="_blank" rel="noopener noreferrer">Upsurge Media Pvt Ltd</a>.
+        </span>
+      </p>
     </div>
   </footer>
 
+  <script>
+    document.getElementById("current-year").textContent = new Date().getFullYear();
+  </script>
 
 </body>
 
