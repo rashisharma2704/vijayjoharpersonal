@@ -1,0 +1,115 @@
+transition-hover {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  .transition-hover:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  }
+
+  .testimonial-box {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+
+  .testimonial-box:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.08);
+  }
+
+  .testimonial-box img {
+    border: 2px solid #1E2D5A;
+  }
+
+
+  .core-card {
+    background-color: #1e1e1e;
+    border: 1px solid #2c2c2c;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  .core-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 12px 25px rgba(0, 123, 255, 0.2);
+  }
+  .core-card .icon i {
+    transition: transform 0.3s ease;
+  }
+  .core-card:hover .icon i {
+    transform: rotate(10deg) scale(1.1);
+  }
+  
+
+  .partner-logo {
+    max-height: 60px;
+    transition: transform 0.3s ease, filter 0.3s ease;
+    filter: grayscale(100%);
+  }
+  .partner-logo:hover {
+    transform: scale(1.1);
+    filter: grayscale(0%);
+  }
+  
+
+  .footer-area {
+    background-color: #0b1b3f;
+    color: #ffffff;
+    font-size: 15px;
+  }
+  
+  .footer-area h5 {
+    font-weight: 600;
+    margin-bottom: 20px;
+    color: #ffffff;
+  }
+  
+  .footer-area a {
+    color: #b4c4f0;
+    text-decoration: none;
+    transition: all 0.3s ease;
+  }
+  
+  .footer-area a:hover {
+    color: #ffffff;
+    text-decoration: underline;
+  }
+  
+  .footer-area .contact-info i {
+    margin-right: 10px;
+    color: #f39c12;
+  }
+  
+  /* Subscribe Form */
+  .subscribe-form input.form-control {
+    max-width: 250px;
+    border-radius: 4px;
+    border: none;
+    padding: 8px 10px;
+  }
+  
+  .subscribe-form .btn-subscribe {
+    background-color: #1e2f78;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    color: #fff;
+    transition: background-color 0.3s ease;
+  }
+  
+  .subscribe-form .btn-subscribe:hover {
+    background-color: #324b9c;
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 576px) {
+    .subscribe-form {
+      flex-direction: column;
+    }
+  
+    .subscribe-form input.form-control {
+      margin-bottom: 10px;
+      width: 100%;
+    }
+  
+    .subscribe-form .btn-subscribe {
+      width: 100%;
+    }
+  }
+  
